@@ -1,10 +1,15 @@
 # Basic API
 
 Basic api with 3 endpoints
+This API is deployed on aws and serve three endpoint :
+
+- eurosport.eu-west-3.elasticbeanstalk.com/players
+- eurosport.eu-west-3.elasticbeanstalk.com/players/:id
+- eurosport.eu-west-3.elasticbeanstalk.com/players/dynamic
 
 ## Getting Started
 
-clone the project with the following command
+Clone the project with the following command
 
 ```
 git@github.com:stamtech/basicApi.git
@@ -35,7 +40,7 @@ npm test
 
 ## Deployment
 
-the deployment is linked to master branch, its use aws code pipeline, code build, and elastic beanstalk
+the deployment is linked to master branch with github hooks, it uses aws code pipeline, code build, and elastic beanstalk
 
 ## License
 
